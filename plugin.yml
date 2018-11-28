@@ -1,0 +1,30 @@
+main: wizAlpha.Main
+version: 0.0.3
+name: wizAlpha
+
+commands:
+  Bubble:
+    description: Creates a bubble with the given radius around player.
+  ChangeConfig:
+    aliases: [cc]
+    description: Changes wizAlpha's configuration file.
+  Freeze:
+    description: Freezes players.
+  Frozen:
+    aliases: [f]
+    description: Gives list of frozen players.
+  PrivateVault:
+    aliases: [pv]
+    description: Opens private vault.
+  SaveConfig:
+    aliases: [sc]
+    description: Saves wizAlpha's config.
+  TPR:
+    aliases: [rtp]
+    description: Teleports you to a random location.
+  TPTop:
+    aliases: [tpt]
+    description: Teleports you to the top.
+  Unfreeze:
+    aliases: [unf,uf]
+    description: Unfreezes players.
